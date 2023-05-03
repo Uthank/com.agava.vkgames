@@ -107,7 +107,7 @@ const library = {
         },
 
         vkWebJoinGroup: function (onSuccessCallback, onErrorCallback) {
-            vkSDK.bridge.send("VKWebAppJoinGroup", { "group_id": 217602721 })
+            vkSDK.bridge.send("VKWebAppJoinGroup", { "group_id": 84861196 })
                 .then(function (data) {
                     if (data.result)
                         dynCall('v', onSuccessCallback);
